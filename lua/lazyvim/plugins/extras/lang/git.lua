@@ -12,12 +12,12 @@ return {
     "nvim-cmp",
     dependencies = {
       { "petertriho/cmp-git", opts = {} },
-      {
-        "FabijanZulj/blame.nvim",
-        opts = {
-          blame_options = { "-w" },
-        },
-      },
+      -- {
+      --   "FabijanZulj/blame.nvim",
+      --   opts = {
+      --     blame_options = { "-w" },
+      --   },
+      -- },
     },
     ---@module 'cmp'
     ---@param opts cmp.ConfigSchema
